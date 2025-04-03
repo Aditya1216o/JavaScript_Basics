@@ -47,5 +47,19 @@
 const addtwo = (num1,num2) => num1+num2 //implicit return 
  
 
-console.log(addtwo(3,4));
-console.log("hii");
+// console.log(addtwo(3,4));
+
+// immediately invoked function expression (IIFE)
+
+(function coffe () {
+//named IIFE
+
+
+
+     console.log(`DB CONNECTED`);
+     
+})();
+
+( (name) => {
+    console.log(`DB NOT CONNECTED ${name}`)
+}) ('Aditya ')
