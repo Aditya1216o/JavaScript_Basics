@@ -44,4 +44,11 @@ const map = new Map()
 map.set('IN',"India")
 map.set('USA',"united states")
 map.set('fr',"france")
-console.log(map);
+// console.log(map);
+
+const programming = ["js","rb","py","java","cpp"]
+for (const key in programming ){
+    console.log(programming[key]);
+    
+}
+
