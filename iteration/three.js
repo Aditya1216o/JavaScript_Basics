@@ -28,14 +28,14 @@ const mycoding = [
 },
 ]
 mycoding.forEach( ( item ) => {
-    // console.log(item.languagename);
+    console.log(item.languagename);
     
 })
 
 const coding = ["js", "ruby", "java", "python"]
 
 const values = coding.forEach ( (item) => {
-    console.log(item);
+    // console.log(item);
     
 })
-console.log(values);
+// console.log(values);
