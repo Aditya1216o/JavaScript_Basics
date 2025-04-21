@@ -42,6 +42,5 @@ function addone(num) {
 const addtwo = function(num) {
     return num+2
 }
-addtwo(6)
+console.log(addtwo(6))
 
-console.log()

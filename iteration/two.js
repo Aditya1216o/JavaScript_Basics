@@ -48,7 +48,18 @@ map.set('fr',"france")
 
 const programming = ["js","rb","py","java","cpp"]
 for (const key in programming ){
-    console.log(programming[key]);
+    // console.log(programming[key]);
     
 }
 
+const mynums = [1,2,3,4,5,6,7,8,9, 10]
+// const newnums = mynums.filter((number) => number > 4)
+// console.log(newnums);
+
+
+const mynumber = [1,2,3,4,5,6,7,8,9,10]
+const newNums = mynums
+        .map((num )=> {return num * 10 })
+        .map((num) => num + 1 )
+console.log(newNums);
+                                                    
